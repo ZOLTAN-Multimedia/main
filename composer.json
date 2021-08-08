@@ -1,0 +1,33 @@
+{
+	"name": "ZOLTAN-Multimedia/main",
+	"description": "Opis pakietu",
+	"authors": [
+		{
+		"name": "Piotr Szkudlarek",
+		"email": "pszkudlarek@zoltanmultimedia.pl"
+		}
+	],
+	"autoload": {
+		"psr-4": {
+			"ZOLTAN-Multimedia\\Main\\": "src/",
+			"ZOLTAN-Multimedia\\Main\\Backend\\Controllers\\": "src/backend/controllers/",
+			"ZOLTAN-Multimedia\\Main\\Backend\\Db\\": "src/backend/db/",
+			"ZOLTAN-Multimedia\\Main\\Backend\\Middleware\\": "src/backend/middleware/",
+			"ZOLTAN-Multimedia\\Main\\Backend\\Routes\\": "src/backend/routes/",
+			"ZOLTAN-Multimedia\\Main\\Frontend\\Controllers\\": "src/frontend/controllers/",
+			"ZOLTAN-Multimedia\\Main\\Frontend\\Db\\": "src/frontend/db/",
+			"ZOLTAN-Multimedia\\Main\\Frontend\\Middleware\\": "src/frontend/middleware/",
+			"ZOLTAN-Multimedia\\Main\\Frontend\\Routes\\": "src/frontend/routes/",
+			"ZOLTAN-Multimedia\\Main\\Migrations\\": "src/migrations/"
+		},
+		"files": ["src/helpers.php"]
+		},
+		"extra": {
+			"laravel": {
+			"providers": [
+				"ZOLTAN-Multimedia\\Main\\ZOLTAN-MultimediaMainServiceProvider"
+			]
+		}
+	},
+	"require": {}
+}
